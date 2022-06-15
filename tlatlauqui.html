@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tours Cuetzalan</title>
+	<link rel="stylesheet" type="text/css" href="css/mod.css">
+	<link rel="stylesheet" type="text/css" href="css/Progressive.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/librerias/jquery-3.6.0.min.js"></script>
+	<script src="js/librerias/popper.min.js"></script>
+	<script src="js/librerias/bootstrap.min.js"></script>
+</head>
+<body>
+	<section class="main">
+		<section class="video">
+	      <video muted autoplay loop>
+		  <source src="vid/lo.p4" type="video/mp4" >
+	     </video>
+	 </section>
+	</section>
+	<header>
+		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			
+		</div>
+		<div class="carousel-inner">
+			<div class="carousel-item active" data-bs-interval="1000">
+				<img src="img/Tlatlauqui1.jpg" class="d-block w-100" width="480" height="500" alt="20px" padding="20px">
+			</div>
+			<div class="carousel-item" data-bs-interval="1000">
+				<img src="img/Tlatlauqui2.jpg" class="d-block w-100" width="480" height="500">
+			</div>
+			<div class="carousel-item" data-bs-interval="1000">
+				<img src="img/Tlatlauqui4.jpg" class="d-block w-100" width="480" height="500">
+			</div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previus</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</button>
+	</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="paquetes.html">Paquetes</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section class="main">
+		<section class="articles">
+			<article>
+				<h2>PAQUETE TLATLAUQUITEPEC</h2>
+				<h2>El paquete Las Golondrinas les incluye lo siguiente:</h2>
+				<p>Dirigido a: Familias y jovenes</p>
+				<p>Duracion: 7 a 8 horas</p>
+				<p>Incluye: Equipo especializado, guia, pago de entradas y transporte particular.</p>
+				<p>Recorrido: Se recorre la Presa de la Soledad en lancha y se llega a la cascada del Tunel 1, cascada el Tenexate, columpio y mirador del Diablo de 300 metros de altura y cascada Las Hamacas.</p>
+				<p>Costo:  $750.00 por persona</p>
+				<p>Mínimo: 3 personas</p>
+			</article>
+			<article>
+			<div class="wrapper">
+        <header class="masthead">
+            <h1>Tours Cuetzalan</h1>
+        </header>
+        <section class="main">
+            <h2>Reservacion</h2>
+            <p style="color: black;">Por favor llena cada uno de los campos para reservar tu recorrido turistico</p>
+            <form name="travelForm" id="travelForm" enctype="application/x-www-form-urlencoded">
+                <div class = "clearfix">
+                    <div class="formBox">
+                        <label for="departure">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 8 8">
+                        <path d="M3 0c-1.66 0-3 1.34-3 3 0 2 3 5 3 5s3-3 3-5c0-1.66-1.34-3-3-3zm0 1c1.11 0 2 .9 2 2 0 1.11-.89 2-2 2-1.1 0-2-.89-2-2 0-1.1.9-2 2-2z" transform="translate(1)" />
+                        </svg> Nombre</label>
+
+
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre" required/>
+                    </div>
+                    <div class="formBox">
+                        <label for="destination">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 8 8">
+                        <path d="M3 0c-1.66 0-3 1.34-3 3 0 2 3 5 3 5s3-3 3-5c0-1.66-1.34-3-3-3zm0 1c1.11 0 2 .9 2 2 0 1.11-.89 2-2 2-1.1 0-2-.89-2-2 0-1.1.9-2 2-2z" transform="translate(1)" />
+                        </svg>Apellido</label>
+                        <input type="text" name="apellido" id="apellido" placeholder="Apellido" required/>
+                    </div>
+
+                    <div class="formBox">
+                        <label for="departure_dt"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 8 8">
+                    <path d="M0 0v2h7v-2h-7zm0 3v4.91c0 .05.04.09.09.09h6.81c.05 0 .09-.04.09-.09v-4.91h-7zm1 1h1v1h-1v-1zm2 0h1v1h-1v-1zm2 0h1v1h-1v-1zm-4 2h1v1h-1v-1zm2 0h1v1h-1v-1z" />
+                    </svg>Dia de salida</label>
+                        <input type="date" name="salida" id="salida"  required/>
+                    </div>
+                    <div class="formBox">
+                        <label for="return_dt"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 8 8">
+                        <path d="M0 0v2h7v-2h-7zm0 3v4.91c0 .05.04.09.09.09h6.81c.05 0 .09-.04.09-.09v-4.91h-7zm1 1h1v1h-1v-1zm2 0h1v1h-1v-1zm2 0h1v1h-1v-1zm-4 2h1v1h-1v-1zm2 0h1v1h-1v-1z" />
+                        </svg>Hora</label>
+                        <input type="time" name="hora" id="hora"  required/>
+                    </div>
+
+
+
+
+                <div class="col">
+                    <label for="numero_de_adultos"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 8 8">
+                    <path d="M4 0c-1.1 0-2 1.12-2 2.5s.9 2.5 2 2.5 2-1.12 2-2.5-.9-2.5-2-2.5zm-2.09 5c-1.06.05-1.91.92-1.91 2v1h8v-1c0-1.08-.84-1.95-1.91-2-.54.61-1.28 1-2.09 1-.81 0-1.55-.39-2.09-1z" />
+                    </svg>Numero de personas</label>
+
+                    <select name="num_personas" id="num_personas">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="10">+10</option>
+                    </select>
+                    
+                </div>
+                
+                    <div class="col">
+                    <label for="amount" title="Maximo precio por persona"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 8 8">
+                    <path d="M2 0v1h-.75c-.68 0-1.25.57-1.25 1.25v.5c0 .68.44 1.24 1.09 1.41l2.56.66c.14.04.34.29.34.44v.5c0 .14-.11.25-.25.25h-2.5c-.12 0-.21-.04-.25-.06v-.94h-1v1c0 .34.2.63.44.78.23.16.52.22.81.22h.75v1h1v-1h.75c.69 0 1.25-.56 1.25-1.25v-.5c0-.68-.44-1.24-1.09-1.41l-2.56-.66c-.14-.04-.34-.29-.34-.44v-.5c0-.14.11-.25.25-.25h2.5c.11 0 .21.04.25.06v.94h1v-1c0-.34-.2-.63-.44-.78-.23-.16-.52-.22-.81-.22h-.75v-1h-1z"
+                    transform="translate(1)" />
+                    </svg>Nombre del paquete</label>
+                    <input id="text" name="pack" id="pack" type="text"/>
+                    <div id="slider-range"></div>
+                </div>
+             
+		        <div class="Progressive"><p id="previo" class="oculto"><i class="fa fa-spinner fa-pulse"></i> Procesando, por favor espere...</p></div>
+                <div class="rp"><p id="respuesta"></p></div>
+                    <div class=" col buttons">
+                    <input type="submit" name="btnSubmit" id="btnSubmit" value="Enviar" />
+                </div>
+            </div>
+            </form>
+        </section>
+    </div>
+    
+			</article>
+		</section>
+	</section>
+	<script type="text/javascript" src="js/librerias/jquery_min_3.6.0.js"></script>
+    <script type="text/javascript" src="js/personalizado/costum.js"></script>
+
+
+</body>
+</html>
