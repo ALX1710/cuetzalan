@@ -1,0 +1,100 @@
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+ 
+.clearfix {
+    display: inline-block;
+}
+ 
+
+h1{
+padding: 0.5rem;
+font-family: 'Tangerine', cursive;
+font-size: 4rem;
+}
+h2{
+font-family: 'Tangerine', cursive;
+font-size: 3rem;    
+}
+
+p{
+padding-top: 1rem;
+padding-bottom: 2rem;
+font-family: 'Flamenco', cursive;
+font-size: 1.2rem;
+text-align: left;
+}
+svg{
+    fill:pink;
+}
+
+
+/*******************************************
+				Layout
+*******************************************/
+.wrapper{
+    background: linear-gradient(skyblue, white);
+    opacity: 0.9;
+    margin: 0 auto;
+    border: 0.2rem solid #B26C58;
+    
+}
+.masthead{
+	text-align: center;
+    background-color: white;
+}
+
+.foot{
+    background-color: white;
+    clear: both;
+}
+.foot p{
+    text-align: center;
+
+}
+
+/*******************************************
+				Form Styles
+*******************************************/
+.formBox{
+    padding-bottom: 1rem;
+}
+.col{
+    padding-bottom: 1rem;
+}
+
+.buttons{
+  padding-bottom: 1rem;
+}
+.buttons input{
+ margin-top: 3rem;
+ background-color: #ffffff;
+}
+
+ label{
+  display: block;
+  font-family: 'Flamenco', cursive;
+  font-size: 1.3rem;
+}
+
+
+input, select, textarea{
+  padding: 0.4rem;
+  font-family: 'Flamenco', cursive;
+  width:80%;
+  font-size: 1rem;
+  border: 0.2rem solid #B26C58;
+}
+select{
+  width:30%;
+}
+input[type=text],
+input[type=number],
+input[type=date]{
+	
+}

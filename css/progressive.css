@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Mukta', sans-serif;
+}
+
+body{
+	background: linear-gradient(black, white);
+}
+
+
+.main .video video{
+	width: 110%;
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	z-index: -1;
+}
+
+.main .articles video{
+	margin-top: 10px;
+}
+
+header, .main, footer{
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+}
+header nav {
+	background: skyblue;
+	overflow: hidden;
+}
+header nav ul{
+	list-style: none;
+}
+header nav ul li{
+	float: left;
+}
+header nav ul li a{
+	padding: 10px 20px;
+	display: block;
+	color: black;
+	text-decoration: none;
+}
+header nav ul li a:hover{
+	background: black;
+	color: white;
+}
+.main .articles{
+	width: 98.5%;
+	margin-right: 1.5%;
+	float: left;
+	
+}
+.main .articles article{
+	padding: 20px;
+	background: linear-gradient(to right, black, skyblue);
+	margin-bottom: 20px;
+	text-align: justify;
+}
+
+footer{
+	background: skyblue;
+	color: white;
+	clear: both;
+	padding: 10px 0px;
+	text-align: center;
+}
+
+
+h2,h3{
+	color: transparent;
+	text-align: center;
+	margin-top: 20px;
+	background-image: url(../gift/ciencia.gif);
+	background-position: center;
+	-webkit-background-clip: text;
+}
+
+p{
+	color: white;
+}
+button:hover{
+	background: black;
+	color: white;
+}
+button{
+	padding: 10px 20px;
+	font-size: 16px;
+	background: none;
+	border-style: none;
+	border: 1px solid white;
+	color: black;
+	margin-top: 20px;
+	transition: background 300ms;
+	cursor: pointer;
+}
+
+.main .articles li{
+	color: white;
+	text-align: justify;
+}
+
